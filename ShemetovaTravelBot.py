@@ -91,7 +91,7 @@ for city in cities:
     d[name_city.text.strip()] = city_href
 
 
-bot = telebot.TeleBot('5939165997:AAHiJF5d0MIMKekjRe2TDOj3Ia7Sztq04lc')
+bot = telebot.TeleBot(TOKEN)
 
 
 #обработчик команд start и help
